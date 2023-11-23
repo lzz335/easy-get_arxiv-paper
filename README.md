@@ -1,37 +1,33 @@
 # easyGet_arxivPaper
 
-#### 介绍
+## 介绍
 本仓库提供了一种简单的方法可以迅速的获得在既定检索关键词下的文献列表并且输出成一个便于阅读的word文档
 
-#### 软件架构
-软件架构说明
+## 需要安装的python库
 
+```powershell
+pip install feedparser
+pip install numpy
+pip install pandas
+pip install datetime
+pip install feedparser
+pip install python-docx
+```
 
-#### 安装教程
+## 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+本程序需要用户手动指定搜索条件，搜索条件的语法规则如下：
 
-#### 使用说明
+| prefix | explanation           |
+| ------ | --------------------- |
+| ti     | 标题                  |
+| au     | 作者                  |
+| abs    | 摘要                  |
+| co     | 会议                  |
+| jr     | JournalReference      |
+| cat    | SubjectCategory       |
+| rn     | ReportNumber          |
+| id     | Id(useid_listinstead) |
+| all    | Alloftheabove         |
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+同时用户可以指定输出的文档名称，参数明伟save_name。
