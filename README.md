@@ -30,4 +30,4 @@ pip install python-docx
 | id     | Id(useid_listinstead) |
 | all    | Alloftheabove         |
 
-同时用户可以指定输出的文档名称，参数明伟save_name。
+同时用户可以指定输出的文档名称，参数名为save_name。
