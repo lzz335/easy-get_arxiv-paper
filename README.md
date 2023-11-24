@@ -31,3 +31,14 @@ pip install python-docx
 | all    | Alloftheabove         |
 
 同时用户可以指定输出的文档名称，参数名为save_name。
+
+相关的输出结果示意图如下图所示：
+
+word输出示意图：
+
+![word文档示意图](https://github.com/lzz335/easy-get_arxiv-paper/blob/%E5%88%98%E5%BF%97%E9%92%8A/%E7%A4%BA%E6%84%8F%E5%9B%BE1.png)
+
+
+excel输出示意图：
+
+![word文档示意图](https://github.com/lzz335/easy-get_arxiv-paper/blob/%E5%88%98%E5%BF%97%E9%92%8A/%E7%A4%BA%E6%84%8F%E5%9B%BE2.png)
